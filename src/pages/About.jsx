@@ -24,7 +24,7 @@ function About() {
 
                     <div className="row align-items-center">
                         <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                            <img src="assets/img/education/education-square-2.webp" alt="About Us"
+                            <img src="/assets/img/blog/about.JPG" alt="About Us"
                                  className="img-fluid rounded-4"/>
                         </div>
                         <div className="col-lg-6" data-aos="fade-up" data-aos-delay="300">
@@ -101,15 +101,15 @@ function About() {
                             <div className="about-gallery">
                                 <div className="row g-3">
                                     <div className="col-6">
-                                        <img src="assets/img/education/education-1.webp" alt="Coding Session"
+                                        <img src="/assets/img/blog/impact.jpg" alt="Coding Session"
                                              className="img-fluid rounded-3"/>
                                     </div>
                                     <div className="col-6">
-                                        <img src="assets/img/education/students-3.webp" alt="Student Achievement"
+                                        <img src="/assets/img/education/DSC_9525.JPG" alt="Student Achievement"
                                              className="img-fluid rounded-3"/>
                                     </div>
                                     <div className="col-12 mt-3">
-                                        <img src="assets/img/education/campus-8.webp" alt="Workshops & Camps"
+                                        <img src="/assets/img/education/EMMA2403.jpg" alt="Workshops & Camps"
                                              className="img-fluid rounded-3"/>
                                     </div>
                                 </div>

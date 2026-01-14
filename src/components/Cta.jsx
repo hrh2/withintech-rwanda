@@ -71,7 +71,7 @@ function Cta() {
           <div className="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div className="cta-image">
               <img
-                src="/assets/img/education/withintech-hero.webp"
+                src="/assets/img/blog/DSC_9505.JPG"
                 alt="WithinTech Rwanda Programs"
                 className="img-fluid"
               />

@@ -65,7 +65,7 @@ function Programs() {
   const programs = [
     {
       title: "Get-Into-Tech Summer Camp ",
-      image: "assets/img/education/DSC_9405.JPG",
+      image: "assets/img/blog/session2025-1.jpg",
       badge: { type: "featured", text: "Flagship" },
       level: "High School Students",
       duration: "August",
@@ -85,7 +85,7 @@ function Programs() {
     },
     {
       title: "Enjoy AI Rwanda ",
-      image: "assets/img/education/ai-competition.webp",
+      image: "assets/img/blog/enjoyai.jpeg",
       badge: { type: "certificate", text: "Competition" },
       level: "Schools",
       duration: "",
@@ -96,7 +96,7 @@ function Programs() {
     },
     {
       title: "Enjoy AI Global  - China",
-      image: "assets/img/education/global-ai.webp",
+      image: "assets/img/blog/enjoyai1.jpeg",
       badge: { type: "international", text: "Global" },
       level: "Selected Teams",
       duration: "December",
@@ -106,8 +106,8 @@ function Programs() {
       students: 21,
     },
     {
-      title: "Coding & Robotics Clubs",
-      image: "assets/img/education/robotics-club.webp",
+      title: "Coding & Robotics",
+      image: "assets/img/education/DSC_9405.JPG",
       badge: { type: "ongoing", text: "Clubs" },
       level: "High Schools",
       duration: "Ongoing ",
