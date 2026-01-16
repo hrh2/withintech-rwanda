@@ -24,7 +24,6 @@ function Hero() {
     return (
         <>
             <section id="courses-hero" className="courses-hero section light-background">
-
                 <div className="hero-content">
                     <div className="container">
                         <div className="row align-items-center">
