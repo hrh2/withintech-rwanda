@@ -36,8 +36,8 @@ function Cta() {
               </div>
 
               <div className="cta-actions" data-aos="fade-up" data-aos-delay="500">
-                <a href="programs" className="btn btn-primary">Join WiT Community</a>
-                <a href="apply" className="btn btn-outline">Apply Now</a>
+                <a href="programs" className="btn btn-outline">Join WiT Community</a>
+                <a href="apply" className="btn btn-primary">Donate</a>
               </div>
 
               {/* ✅ React Counters */}

@@ -21,58 +21,6 @@ function Testimonial() {
             <div className="container" data-aos="fade-up" data-aos-delay="100">
                 <div className="row">
                     <div className="col-12">
-                        {/* Critics Reviews */}
-                        <div
-                            className="critic-reviews"
-                            data-aos="fade-up"
-                            data-aos-delay="300"
-                        >
-                            <div className="row">
-                                {[
-                                    {
-                                        name: "The New York Times",
-                                        stars: 5,
-                                        text:
-                                            "Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
-                                    },
-                                    {
-                                        name: "Washington Post",
-                                        stars: 4.5,
-                                        text:
-                                            "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat.",
-                                    },
-                                    {
-                                        name: "The Guardian",
-                                        stars: 5,
-                                        text:
-                                            "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat.",
-                                    },
-                                ].map((review, index) => (
-                                    <div className="col-md-4" key={index}>
-                                        <div className="critic-review">
-                                            <div className="review-quote">"</div>
-                                            <div className="stars">
-                                                {[...Array(5)].map((_, i) => (
-                                                    <i
-                                                        key={i}
-                                                        className={`bi ${
-                                                            i < Math.floor(review.stars)
-                                                                ? "bi-star-fill"
-                                                                : "bi-star-half"
-                                                        }`}
-                                                    ></i>
-                                                ))}
-                                            </div>
-                                            <p>{review.text}</p>
-                                            <div className="critic-info">
-                                                <div className="critic-name">{review.name}</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                        {/* End Critics Reviews */}
 
                         {/* Testimonials Slider */}
                         <div className="testimonials-container">
@@ -150,28 +98,6 @@ function Testimonial() {
                         {/* End Testimonials Slider */}
                     </div>
                 </div>
-                {/* Overall Rating */}
-                {/*<div className="row">*/}
-                {/*    <div className="col-12 text-center" data-aos="fade-up">*/}
-                {/*        <div className="overall-rating">*/}
-                {/*            <div className="rating-number">4.8</div>*/}
-                {/*            <div className="rating-stars">*/}
-                {/*                <i className="bi bi-star-fill"></i>*/}
-                {/*                <i className="bi bi-star-fill"></i>*/}
-                {/*                <i className="bi bi-star-fill"></i>*/}
-                {/*                <i className="bi bi-star-fill"></i>*/}
-                {/*                <i className="bi bi-star-half"></i>*/}
-                {/*            </div>*/}
-                {/*            <p>Based on 230+ reviews</p>*/}
-                {/*            <div className="rating-platforms">*/}
-                {/*                <span>Goodreads</span>*/}
-                {/*                <span>Amazon</span>*/}
-                {/*                <span>Barnes &amp; Noble</span>*/}
-                {/*            </div>*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-                {/* End Overall Rating */}
             </div>
         </section>
     );

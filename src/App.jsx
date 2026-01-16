@@ -7,6 +7,8 @@ import Index from "./pages/Index.jsx";
 import About from "./pages/About.jsx";
 import Blogs from "./components/Blogs.jsx";
 import Contacts from "./pages/Contacts.jsx";
+import Error404 from "./pages/Error404.jsx";
+import Programs from "./components/Programs.jsx";
 
 function App() {
   return (
@@ -21,11 +23,13 @@ function App() {
         <Route path="/about" element={<About />} />
         {/*  Gallery */}
         <Route path="/gallery" element={<Blogs />} />
+          {/*  Programs */}
+        <Route path="/programs" element={<Programs />} />
         {/*  Contact Us*/}
         <Route path="/contact-us" element={<Contacts/>} />
 
         {/* Redirect unknown routes to home */}
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<Error404/>} />
       </Routes>
 
       <Footer />

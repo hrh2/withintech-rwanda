@@ -1,10 +1,11 @@
 import React from 'react';
+import Blogs from "../components/Blogs.jsx";
 
-function About() {
+function About({noTitle}) {
     return (
         <main className="main">
             {/*  Page Title  */}
-            <div className="page-title light-background">
+            {!noTitle&&<div className="page-title light-background">
                 <div className="container d-lg-flex justify-content-between align-items-center">
                     <h1 className="mb-2 mb-lg-0">About Us</h1>
                     <nav className="breadcrumbs">
@@ -14,7 +15,7 @@ function About() {
                         </ol>
                     </nav>
                 </div>
-            </div>
+            </div>}
             {/*  End Page Title  */}
 
             {/*  About Section  */}
@@ -131,7 +132,7 @@ function About() {
 
             </section>
             {/*  /About Section  */}
-
+            <Blogs min={3} noTitle={true}/>
         </main>
     );
 }

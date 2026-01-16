@@ -5,6 +5,7 @@ import Team from "../components/Team.jsx";
 import Testimonial from "../components/Testimonial.jsx";
 import Blogs from "../components/Blogs.jsx";
 import Cta from "../components/Cta.jsx";
+import About from "./About.jsx";
 
 function Index() {
     return (
@@ -13,24 +14,20 @@ function Index() {
             {/* Courses Hero Section */}
             <Hero/>
             {/* /Courses Hero Section */}
-
+            <About noTitle={true} />
             {/* Featured Courses Section */}
-            <Programs/>
+            <Programs noTitle={true} />
             {/* /Featured Courses Section */}
 
             {/* Course Categories Section */}
-            <Skills/>
+            {/*<Skills/>*/}
+            {/* Testimonials Section */}
+            <Testimonial/>
+            {/* /Testimonials Section */}
             {/* /Course Categories Section */}
             {/* Cta Section */}
             <Cta/>
             {/* /Cta Section */}
-            {/* Testimonials Section */}
-            <Testimonial/>
-            {/* /Testimonials Section */}
-
-            {/* Recent Blog Posts Section */}
-            <Blogs min={3}/>
-            {/* /Recent Blog Posts Section */}
         </main>
     );
 }
